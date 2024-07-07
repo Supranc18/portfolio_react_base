@@ -1,0 +1,59 @@
+
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px 60px;
+   align-items: center;
+    flex-direction: row;
+}
+.main h1, h2{
+    color: white;
+    font-size: 2rem;
+}
+.main p{
+    color: white;
+    max-width: 500px;
+    padding: 20px 0px;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.color{
+    color:orangered;
+
+}
+.right img{
+    width: 30vw;
+    min-width: 200px;
+    border: 2px solid black;
+    padding: 0px 20px;
+    box-shadow: 20px 20px black;
+}
+.social{
+    margin:30px ;
+    margin-left: 60px;
+    font-size: 2rem;
+}
+.apps{
+    display: flex;
+    gap: 30px;
+}
+.apps a{
+    color: white;
+    font-size: 30px;
+    transition: 0.8s;
+   
+}
+.apps a:hover{
+    color: orangered;
+}
+hr{
+    margin: 10px 10px;
+    border: 1px solid rgb(23, 22, 22);
+}
+

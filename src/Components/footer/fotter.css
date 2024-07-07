@@ -1,0 +1,23 @@
+.topfot{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    padding: 10px 55px;
+    flex-wrap: wrap;
+}
+.leftfoot{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.topfot img{
+    width: 5vw;
+    min-width: 30px;
+    border-radius: 50%;
+    border: 2px solid rgb(110, 110, 110);
+}
+.bottomfot{
+    text-align: center;
+    padding: 30px;
+}

@@ -1,0 +1,132 @@
+.mainresume{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+}
+.resume{
+    text-align: center;
+}
+.resume h2{
+    font-size: 2.5rem;
+    
+}
+.skill ul  {
+    margin: 20px 0px;
+    display: flex;
+    flex-wrap: wrap;
+   background-color: rgb(21, 21, 21);
+   justify-content: space-evenly;
+   width: 92vw;
+   border-radius: 10px;
+   gap: 20px;
+}
+.skill ul li{
+    list-style: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+    padding: 20px;
+    transition: 0.6s;
+    text-align: center;
+}
+.skill ul li:hover{
+    background-color: black;
+    border: 1px solid orangered;
+    border-radius: 10px;
+
+}
+.education{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    
+}
+
+.educationdetail{
+    background-color: rgb(20, 20, 20);
+    margin: 10px;
+    max-width: 500px;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow:3px 3px 5px 5px rgb(46, 46, 38);
+    text-align: start;
+    animation: show;
+    animation-duration: 1s;
+}
+.skill{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+.skillsname{
+    gap: 10px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    max-width:500px;
+    text-align: start;
+    background-color:rgb(21, 21, 21);
+    box-shadow:3px 3px 5px 5px rgb(46, 46, 38);
+    border-radius: 10px;
+
+}
+.space
+{
+    display: flex;
+    justify-content: space-between;
+}
+.skillamount{
+    width: 200px;
+    height: 10px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    background: radial-gradient(circle, orangered, rgb(93, 0, 255));
+    height: 10px;
+    border-radius: 5px;
+    animation: width ;
+    animation-duration: 2s;
+    
+}
+.end{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    animation: show;
+    animation-duration: 1s;
+    
+    
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.experience{
+    text-align: start;
+    background-color: rgb(20, 20, 20);
+    margin: 10px;
+    max-width: 90%;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow:3px 3px 5px 5px rgb(46, 46, 38); 
+    
+}
+
+
+@keyframes width {
+    from {width: 0;}
+    
+  }
+  @keyframes show {
+    from {width: 100;
+    font-size: 5px;
+    }
+    
+  }
+
