@@ -34,11 +34,58 @@ font-size: 1.8rem;
     color: orangered;
     padding: 1px;
 }
+.sidenav{
+    position:absolute;
+    display: block;
+    background-color: rgb(52, 49, 49);
+    width: 150px;
+    height: 300px;
+   top: 0;
+   right: 0;
+   animation: sidenav;
+   animation-duration: 1s;
+}
+.close{
+    font-size: 20px;
+    margin: 10px;
+    margin-right: 30px;
+    text-align: end;
+    cursor: pointer;
+    
+}
+.burger{display: none;}
+.closenav{
+    display: none;
+    
+}
+.sidenav ul li{
+    list-style-type: none;
+    font-size: 1.1rem;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+    margin: 30px;
+}
+.sidenav ul li:hover{
+    border-bottom: 2px solid orangered;
+    color: orangered;
+    padding: 1px;
+}
+
 
 @media (max-width: 450px) {
    
-    .rightnav ul{
+    .rightnav ul li{
         display: none;
     
     } 
+    .burger{
+        display: block !important;
+    }
+}
+
+@keyframes sidenav{
+    from{
+        width:0
+    }
 }
